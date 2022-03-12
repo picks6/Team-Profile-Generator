@@ -1,6 +1,4 @@
-//--------------------------------- Html file Creation -------------------------------//
 
-//create head section
 const createHeader = () => {
     return `
 <!DOCTYPE html>
@@ -40,7 +38,7 @@ const BodyBottom = () => {
 const createEmployee = employee => {
     const role = employee.constructor.name; 
 
-    //get different last element for Manager, Engineer, or Intern
+
     let extension;
 
     switch (role) {
@@ -59,11 +57,10 @@ const createEmployee = employee => {
     return`
            
             <article class="card employee">
-                <section class="employee-head ${position.toLowerCase()}">
+                <section class="employee-header ${role.toLowerCase()}">
                     <h2 class="name">${employee.name}</h2>
                     <span class="position">
-                        <i class="fa-solid ${icons[position]}"></i>
-                        <span>${position}</span>
+                        <span>${role}</span>
                     </span>
                 </section>
                 <section class="employee-body">

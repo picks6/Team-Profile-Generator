@@ -1,0 +1,31 @@
+
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    background-color: #FBFBFF;
+}
+
+
+.manager {
+    background-color: #0047ab;  
+}
+
+.engineer {
+    background-color: #ff2400
+}
+
+.intern {
+    background-color: #c8a2c8
+}
+
+.employee-body p {
+    display: flex;
+    justify-content: space-between;
+}
