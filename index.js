@@ -93,7 +93,7 @@ const createNewEmployee = employee => {
         {
             type: 'list',
             message: `Would you like to add another employee or finish? `,
-            name: 'create',
+            name: 'continueFlag',
             choices: ['Engineer', 'Intern', "Finish"]
         },
     ];
