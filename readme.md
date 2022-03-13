@@ -13,7 +13,10 @@
 # Description
 A CLI to create an HTML profile page for a team
 
-https://user-images.githubusercontent.com/95437073/156263200-dd138e89-7721-4ebb-8479-4f762f20651c.mp4
+
+
+https://user-images.githubusercontent.com/95437073/158072765-a3b143e3-ee7b-4f25-9ef2-fc2a489e4022.mp4
+
 
 
 # Installation
